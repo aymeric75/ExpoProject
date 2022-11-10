@@ -1,7 +1,8 @@
 {
   "expo": {
     "name": "ExpoProject",
-    "slug": "ExpoProject",
+    "slug": "image-filter",
+    "owner": "aymeric69",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -12,7 +13,8 @@
       "backgroundColor": "#ffffff"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/6e603546-bd9f-4066-96a5-25070bd5bcf3"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -24,10 +26,19 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.anonymous.ExpoProject"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6e603546-bd9f-4066-96a5-25070bd5bcf3"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
     }
   }
 }
